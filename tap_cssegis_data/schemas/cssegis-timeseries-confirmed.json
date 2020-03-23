@@ -1,0 +1,36 @@
+{
+	"type": ["null", "object"],
+	"additionalProperties": false,
+	"key_properties": ["Source","County"],
+	"replication_key": "Last_Date",
+	"properties": {
+		"Source": {
+			"type": ["null", "integer"]
+		},
+		"Description": {
+			"type": ["null", "string"]
+		},
+		"Is_A_Cruise": {
+			"type": ["null", "integer"]
+		},
+		"County": {
+			"type": ["null", "string"]
+		},
+		"State": {
+			"type": ["null", "string"]
+		},
+		"Country": {
+			"type": ["null", "string"]
+		},
+		"Latitude": {
+			"type": ["null", "string"]
+		},
+		"Longitude": {
+			"type": ["null", "string"]
+		},
+		"Last_Date": {
+			"type": ["null", "string"],
+			"format": "date"
+		}
+	}
+}
